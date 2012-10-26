@@ -7,7 +7,7 @@ alias ls='ls -G'
 
 alias ll='ls -la'
 
-export PS1="\[\033[1;35m\]\u \[\033[1;34m\]/\W:\[\033[0m\]"
+export PS1="\[\033[1;35m\]\u \[\033[1;32m\]/\W:\[\033[0m\]"
 
 PATH=/opt/local/bin:/opt/local/sbin:$PATH
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
